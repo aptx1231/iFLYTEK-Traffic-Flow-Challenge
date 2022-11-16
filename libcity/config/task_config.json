@@ -1,0 +1,12 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+            "AGCRN"
+        ],
+        "AGCRN": {
+            "dataset_class": "TrafficStatePointDataset",
+            "executor": "TrafficStateExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        }
+    }
+}
